@@ -8,7 +8,7 @@ Emitteur is a event emitter implementation simplified.
   `npm install emetteur`
 
 ## Concept
-Emiteur offer two methods. One to register you event with the listerner associate. And an other one to invoke the event
+Emiteur offer two methods. One to register your event with the listener associate. And any other one to invoke the event.
 
 ```js
 let  Emetteur= require('emetteur');
@@ -22,7 +22,7 @@ eventEmitter.trigger('myEvent', 'event test');
 
 ## API
 ### `on(eventType, callback)`
-Register your callback on a event. It's posible to have more than one call back for a same event.
+Register your callback on an event. It's possible to have more than one call back for a same event.
 
 ```js
 const eventEmitter= new Emetteur();
@@ -31,7 +31,7 @@ eventEmitter.on('myEvent', function(x,y) { console.log(x + y); });
  ``` 
 
 ### `trigger(eventType, ...args)`
-Emit your event with the trigger method. Its possible to add multiple arguments. This arguement can be use for your list of callbacks.
+Emit your event with the trigger method. Its possible to add multiple arguments. This argument can be used for your list of callbacks.
 
 
 ## Author
