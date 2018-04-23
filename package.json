@@ -1,0 +1,16 @@
+{
+  "name": "emetteur",
+  "version": "0.1.0",
+  "description": "Create custom event and listener",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "keywords": ["serverside"],
+  "author": "Judicaël DUBRAY",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
