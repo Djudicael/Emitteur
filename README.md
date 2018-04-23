@@ -1,4 +1,5 @@
-Emetteur
+
+Emetteur [![Build Status](https://travis-ci.org/Djudicael/Emitteur.svg?branch=master)](https://travis-ci.org/Djudicael/Emitteur)
 =========
 
 Emitteur is a event emitter implementation simplified.
